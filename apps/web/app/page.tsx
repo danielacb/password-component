@@ -1,14 +1,24 @@
 "use client";
 
-import { Button } from "ui";
+import { useState } from "react";
+import { PasswordForm } from "ui";
 
 import styles from "../styles/index.module.css";
 
 export default function Web() {
+  const [value, setValue] = useState<string>("");
   return (
     <div className={styles.container}>
-      <h1>Web</h1>
-      <Button onClick={() => console.log("Pressed!")} text="Boop" />
+      <h2>Password Component</h2>
+      <PasswordForm
+        value={value}
+        passwordReqs={[
+          "hasNumber",
+          "hasSpecialCharacters",
+          "hasUppercaseLetter",
+        ]}
+        onInputChange={(e) => setValue(e.target.value)}
+      />
     </div>
   );
 }
