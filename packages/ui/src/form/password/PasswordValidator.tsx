@@ -37,7 +37,7 @@ export function PasswordValidator({
     hasNoConsecutiveLetters: hasNoConsecutiveLetters(),
   };
 
-  const errorMessages: { [key in PasswordOptions]: string } = {
+  const messages: { [key in PasswordOptions]: string } = {
     hasSpecialCharacters:
       "Must contain one or more of these special characters: !@#$%^&*",
     hasNumber: "Must contain at least one number/digit",
@@ -65,6 +65,8 @@ export function PasswordValidator({
   const errors: PasswordOptions[] = Object.entries(requirements)
     .filter(([key, value]) => !value)
     .map(([key]) => key as PasswordOptions);
+
+  const errorMessages = errors.map((key) => messages[key]);
 
   return { requirements, isValid, errors, errorMessages, tipMessages };
 }

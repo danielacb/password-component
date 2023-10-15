@@ -24,6 +24,7 @@ export const Icon = styled.div`
   width: 2rem;
   height: 2rem;
   font-size: 1rem;
+  line-height: 1;
   margin-right: 1rem;
   border-radius: 50%;
   background-color: red;

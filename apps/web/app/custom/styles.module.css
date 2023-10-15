@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  min-height: calc(100vh - 16px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.checkerContainer {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+.errorMessages {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  color: red;
+}
+
+.errorMessages li {
+  margin-top: 12px;
+}
+
+.okMessage {
+  color: green;
+}

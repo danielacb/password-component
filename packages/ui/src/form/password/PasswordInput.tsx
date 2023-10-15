@@ -1,14 +1,16 @@
-import React, { InputHTMLAttributes } from "react";
+import React, { CSSProperties, InputHTMLAttributes } from "react";
 import * as S from "./styles";
 
 export interface PasswordInputProps
   extends InputHTMLAttributes<HTMLInputElement> {
   value: string;
+  styles?: CSSProperties;
   onInputChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export function PasswordInput({
   value,
+  styles,
   onInputChange,
   ...rest
 }: PasswordInputProps) {
@@ -18,6 +20,7 @@ export function PasswordInput({
       type="password"
       value={value}
       onChange={onInputChange}
+      style={{ ...styles }}
       {...rest}
     />
   );
