@@ -20,8 +20,9 @@ The challenge involves the creation of a password component as a part of the com
 - There should be a way for us to validate your implementation - this could be automated testing, a reference build, whatever you’re comfortable with.
 
 <div align="center">
-  
-![preview](https://github.com/danielacb/password-component/assets/18037904/7797b139-c690-46db-8d79-3a76192a3534)
+
+   ![preview](https://github.com/danielacb/password-component/assets/18037904/785dd987-c0db-4280-87c6-e171242bcfd8)
+
 </div>
 
 
