@@ -51,8 +51,9 @@ You can see the example pages here:
 
 <br>
 <div align="center">
-  <img width="643" alt="preview-original-design" src="https://github.com/danielacb/password-component/assets/18037904/03740101-feb0-47d6-8223-a2e3f2952a3d">
-  <img width="643" alt="preview-custom-design" src="https://github.com/danielacb/password-component/assets/18037904/b2ccfdf0-ed62-4958-9861-11f2d2a825a7">
+<img width="643" alt="preview-" src="https://github.com/danielacb/password-component/assets/18037904/e002d568-27cb-4371-8bf0-773e9df8f60d">
+<img width="643" alt="preview-2" src="https://github.com/danielacb/password-component/assets/18037904/9b369459-470b-4a31-8f6a-da591912c63a">
+
 </div>
 
  
